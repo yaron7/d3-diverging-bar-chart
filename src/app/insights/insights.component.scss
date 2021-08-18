@@ -1,0 +1,45 @@
+:host {
+    flex: 1;
+}
+
+.icon {
+    margin: 0 15px 0 5px;
+    width: 25px;
+    height: 20px;
+}
+
+.msg-container {
+    display: flex;
+    align-items: center;
+    div {
+        display: flex;
+        .icon-collapse {
+            background: url("../../assets/icons/collapse-icon.png") no-repeat;
+            cursor: pointer;
+        }
+        
+        .icon-expand {
+            background: url("../../assets/icons/expand-icon.png") no-repeat;
+            cursor: pointer;
+        }
+        
+        .icon-info {
+            background: url("../../assets/icons/info-icon.png") no-repeat;
+        }
+    }
+}
+
+
+.sub-container {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+
+    .icon-thumbs-down {
+        background: url("../../assets/icons/thumbsdown-icon.png") no-repeat;
+    }
+
+    .icon-thumbs-up {
+        background: url("../../assets/icons/thumbsup-icon.png") no-repeat;
+    }
+}

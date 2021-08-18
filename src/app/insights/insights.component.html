@@ -1,0 +1,22 @@
+<h3 class="header">Insights</h3>
+<div *ngFor="let entry of data | async">
+    <div class="msg-container">
+
+        <div *ngIf="entry.sub_insights.length ;else elseBlock">
+            <i (click)="toggleMessages()"
+               [class]="isCollapsed ? 'icon icon-expand' : 'icon icon-collapse' "></i>
+        </div>
+        <ng-template #elseBlock>
+            <i class="icon"></i>
+        </ng-template>
+        <p>{{ entry.message }}</p>
+    </div>
+    <ng-container *ngIf="entry.sub_insights && !isCollapsed">
+        <div class="sub-container"
+             *ngFor="let sub of entry.sub_insights">
+            <i class="icon"
+               [class]="sub.is_positive ? 'icon-thumbs-down' : 'icon-thumbs-up'"></i>
+            <p> {{sub.message}}</p>
+        </div>
+    </ng-container>
+</div>

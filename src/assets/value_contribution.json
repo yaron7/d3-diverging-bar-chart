@@ -1,0 +1,127 @@
+{
+    "success": true,
+    "value_contribution": [
+        {
+            "attribute": "age: 18",
+            "value": -0.20400300565024201
+        },
+        {
+            "attribute": "happiness: 324",
+            "value": -0.01470304555024204
+        },
+        {
+            "attribute": "driver's license: 0",
+            "value": -0.02633535350342012
+        },
+        {
+            "attribute": "education: High-school",
+            "value": 0.08430333340143212
+        },
+        {
+            "attribute": "marital-status: Single",
+            "value": -0.00935195325486054
+        },
+        {
+            "attribute": "occupation: student",
+            "value": -0.09905534063800114
+        },
+        {
+            "attribute": "relationship: Single",
+            "value": -0.06781497539452198
+        },
+        {
+            "attribute": "race: asian",
+            "value": 0.1672148758945652
+        },
+        {
+            "attribute": "sex: Male",
+            "value": -0.0845493259531552
+        },
+        {
+            "attribute": "hours-per-week: 60",
+            "value": 0.1035493254537596
+        },
+        {
+            "attribute": "smoke: 1",
+            "value": 0.02453450761986123
+        },
+        {
+            "attribute": "bmi: 23.24552325",
+            "value": -0.09242625027750312
+        },
+        {
+            "attribute": "height: 173",
+            "value": 0.0
+        },
+        {
+            "attribute": "active: 1",
+            "value": -0.049577276501718726
+        },
+        {
+            "attribute": "netflix: 1",
+            "value": 0.21476709355224202
+        },
+        {
+            "attribute": "Starting Point",
+            "value": 0.02731590371192236
+        },
+        {
+            "attribute": "age: 39",
+            "value": 0.12400390565024201
+        },
+        {
+            "attribute": "happiness: 524",
+            "value": 0.01470304555024204
+        },
+        {
+            "attribute": "driver's license: 1",
+            "value": 0.0
+        },
+        {
+            "attribute": "marital-status: Married-civ-spouse",
+            "value": 0.21935195325486054
+        },
+        {
+            "attribute": "occupation: Prof-specialty",
+            "value": 0.09905534063800114
+        },
+        {
+            "attribute": "race: Black",
+            "value": 0.0
+        },
+        {
+            "attribute": "sex: Female",
+            "value": -0.0845493259531552
+        },
+        {
+            "attribute": "hours-per-week: 50",
+            "value": -0.1035493254537596
+        },
+        {
+            "attribute": "smoke: 0",
+            "value": -0.01453450761986123
+        },
+        {
+            "attribute": "bmi: 20.26932321",
+            "value": -0.09242625027750312
+        },
+        {
+            "attribute": "height: 180",
+            "value": 0.0
+        },
+        {
+            "attribute": "active: 1",
+            "value": 0.049577276501718726
+        },
+        {
+            "attribute": "netflix: 0",
+            "value": -0.05476709355224202
+        },
+        {
+            "attribute": "Starting Point",
+            "value": -0.27318590371192236
+        }
+    ],
+    "insights": null,
+    "message": "Process executed successfully."
+}

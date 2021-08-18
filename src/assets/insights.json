@@ -1,0 +1,24 @@
+{
+    "success": true,
+    "value_contribution": null,
+    "insights": [
+        {
+            "message": "The model prediction for this sample is robust!",
+            "sub_insights": [
+                {
+                    "message": "The training data has many similar examples; therefore the prediction for this sample is robust. ",
+                    "is_positive": true
+                },
+                {
+                    "message": "The model's confidence for this sample's prediction is high",
+                    "is_positive": true
+                }
+            ]
+        },
+        {
+            "message": "Changing 'netflix' from 0 to 1 for this sample will change the model prediction from 'approve loan' to 'deny loan'",
+            "sub_insights": []
+        }
+    ],
+    "message": "Process executed successfully."
+}
